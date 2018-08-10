@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true"></constant>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="login" class="com.Vegle.Action.LoginAction" method="login"></action>
+        <action name="ViewUser" class="com.Vegle.Action.ViewAction" method="viewDefault"></action>
+        <action name="AddUser" class="com.Vegle.Action.AddAction" method="insert"></action>
+        <action name="Release" class="com.Vegle.Action.ReleaseAction" method="releaseUser"></action>
+        <action name="UpdateUser" class="com.Vegle.Action.UpdateAction" method="updateUser"></action>
+        <action name="DropData" class="com.Vegle.Action.DropAction" method="dropUser"></action>
+    </package>
+</struts>

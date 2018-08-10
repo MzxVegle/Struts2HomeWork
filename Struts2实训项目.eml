@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Struts2实训项目"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 9.0.4" scope="PROVIDED"/>
+	<lib name="Struts 2-2.5.14.1" scope="PROVIDED"/>
+	<levels>
+		<level name="Tomcat 9.0.4" value="application_server_libraries"/>
+		<level name="Struts 2-2.5.14.1" value="project"/>
+		<level name="mysql-connector-java-5.1.45-bin" value="project"/>
+		<level name="Json" value="project"/>
+	</levels>
+</component>
